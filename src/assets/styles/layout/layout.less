@@ -1,0 +1,34 @@
+@import '../variable/variable.less';
+
+#app{
+  .ivu-menu{
+    height: 100%;
+    width: 180px;
+    background:@layout-background;
+    color: @layout-color;
+    margin-left: -10px;
+  }
+  .ivu-menu-vertical.ivu-menu-light:after{
+    width: 0;
+  }
+  .ivu-menu-vertical .ivu-menu-item, .ivu-menu-submenu-title{
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu){
+    background: @layout-checked-background;
+    color: @layout-checked-color;
+  }
+  .ivu-menu-item-active:not(.ivu-menu-submenu):after{
+    width: 4px;
+    right: -5px !important;
+    background: @layout-color;
+  }
+   .ivu-menu-vertical .ivu-menu-item:hover,.ivu-menu-vertical .ivu-menu-submenu-title:hover{
+    color: @layout-checked-color;
+  }
+  .ivu-menu-vertical .ivu-menu-submenu-title-icon{
+    right: 5px;
+  }
+}
