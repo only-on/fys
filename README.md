@@ -1,4 +1,4 @@
-# y
+#法源寺静态页面地址：https://only-on.github.io/fys/dist/index.html
 
 > y
 
