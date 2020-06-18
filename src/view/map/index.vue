@@ -488,13 +488,13 @@
             <div style='word-wrap:break-word;margin: 20px 0'>${s.name}</div>
             <img src="${s.img}" alt="" style="width: 100%;height:200px">
             <p style="color:#96d4e9;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:4;overflow: hidden;margin:10px 0">法源寺，位于北京市宣武门外教子胡同南端东侧，建于唐太宗贞观十九年（公元645年），是北京最古老的名刹。法源寺，唐时为悯忠寺，清雍正时重修并改为今名，1956年在寺内成立中国佛学院、1980年又于寺内建立中国佛教图书文物馆，是中国佛教协会所属的宗教类博物馆。法源寺，1983年被国务院确定汉族地区佛教中国重点寺院，2001年6月25日，法源寺作为清代古建筑，被国务院批准为第五批全国重点文物保护单位。</p>
-            <img src="../../../static/image/line.png" alt="" style="width: 100%;height:40px;">
+            <img src="./static/image/line.png" alt="" style="width: 100%;height:40px;">
             <div style="text-align: center;margin-top: -30px;color:#02bfff;font-size:16px;cursor: pointer" id="checkMore">图片，视频更多
              <i class="iconfont icon-gengduo1"></i>
             </div>
 
             </div>`
-          let bg = '../../../static/image/popbg.png'
+          let bg = './static/image/popbg.png'
           let opts = {
             boxStyle: {
               width: '500px',
